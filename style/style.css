@@ -97,14 +97,85 @@ body {
     margin-bottom: 0px;
 }
 
-
-
-
-
 .attribution { 
     font-size: 11px; text-align: center;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 75%;
+    }
+
+    .frdly__version {
+        padding: 30px;
+    }
+
+    .subscribe__button {
+        width: 75%;
+        margin-left: 55px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 62%;
+    }
+
+    .top__box {
+        border-radius: 8px 8px 0px 0px;
+        padding: 35px;
+    }
+
+    .top__tittle {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .top__subtittle {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .top__text {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .subscribe__box {
+        display: flex;
+    }
+
+    .frdly__version {
+        flex: 1;
+        padding: 35px;
+    }
+
+    .subscribe__left {
+        border-radius: 0px 0px 0px 8px;
+    }
+
+    .subscribe__button {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .subscribe__right {
+        border-radius: 0px 0px 8px 0px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        width: 45%;
+        margin: 150px auto;
+    }
+
 }
